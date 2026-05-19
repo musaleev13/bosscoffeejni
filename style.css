@@ -1,7 +1,195 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 * {
-padding: 0;
-margin: 0;box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+.container {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+:root {
+  --font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  padding-top: 60px;
+}
+
+.head_flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+a.logo {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 46px;
+}
+nav a {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.home {
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 587px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.line {
+  width: 80px;
+  height: 10px;
+  background: #817070;
+}
+
+.story_content{
+  display: flex;
+  padding-top: 60px;
+  gap: 40px;
+  align-items: center;
+
+}
+.story_content p{
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+
+}
+.blog{
+  background: #efefef;
+  margin-top: 60px;
+}
+
+.blog_cards {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+padding-top: 60px;
+padding-bottom: 65px;
+}
+.blog_cards .card{
+  width: 365px;
+  background: #fff;
+  padding: 20px;
+
+}
+.card h3{font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 24px;
+  
+}
+.card p {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+  margin-top: 24px;
+}
+.SUBSCRIBE
+{
+ background: #827070;
+}
+.SUBSCRIBE h2{
+  color: #fff;
+
+
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 28px;
+  padding-bottom: 58px;
+}
+input[type="email"]{
+  width: 300px;
+  height: 55px;
+  font-size: 18px;
+font-family: var(--font-family);
+font-weight: 300;
+font-style: 20px;
+color: #fff;
+text-align: center;
+background: transparent;
+outline: none;
+border: 3px solid #fff;
+
+}
+
+input[type="email"] {
+  font-family:var(--font-family);
+  font-weight: 300;
+  font-style: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+input[type="submit"]{
+  width: 129px;
+  height: 55px;
+}
+
+input[type="email"]{
+  width: 130
+  px;
+  height: 55px;
+  font-size: 18px;
+font-family: var(--font-family);
+font-weight: 300;
+font-style: 20px;
+color: #fff;
+text-align: center;
+background: transparent;
+outline: none;
+border: 3px solid #fff;
+
+}
+
